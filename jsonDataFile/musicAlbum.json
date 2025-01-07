@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Midnight Serenade",
+    "artist": "Echoes in the Night",
+    "genre": "Jazz",
+    "releaseYear": 2018,
+    "recordLabel": "Moonlight Records",
+    "format": "CD",
+    "isExplicit": false,
+    "isAvailableOnStreaming": true,
+    "isFeatured": false
+  },
+  {
+    "title": "Cosmic Dreams",
+    "artist": "Stellar Voyage",
+    "genre": "Electronic",
+    "releaseYear": 2022,
+    "recordLabel": "Galactic Beats",
+    "format": "Digital",
+    "isExplicit": false,
+    "isAvailableOnStreaming": true,
+    "isFeatured": true
+  },
+  {
+    "title": "Wildflower Soul",
+    "artist": "Riverbank Ramblers",
+    "genre": "Country",
+    "releaseYear": 2015,
+    "recordLabel": "Prairie Winds",
+    "format": "Vinyl",
+    "isExplicit": false,
+    "isAvailableOnStreaming": true,
+    "isFeatured": false
+  },
+  {
+    "title": "Urban Oasis",
+    "artist": "City Groove Collective",
+    "genre": "Hip-Hop",
+    "releaseYear": 2020,
+    "recordLabel": "Streetwise Sounds",
+    "format": "Streaming",
+    "isExplicit": true,
+    "isAvailableOnStreaming": true,
+    "isFeatured": true
+  },
+  {
+    "title": "Symphony No. 9",
+    "artist": "Maestro's Ensemble",
+    "genre": "Classical",
+    "releaseYear": 2005,
+    "recordLabel": "Harmony Hall",
+    "format": "CD",
+    "isExplicit": false,
+    "isAvailableOnStreaming": true,
+    "isFeatured": false
+  },
+  {
+    "title": "Island Breeze",
+    "artist": "Coconut Coast Band",
+    "genre": "Reggae",
+    "releaseYear": 2012,
+    "recordLabel": "Beachside Vibes",
+    "format": "Digital",
+    "isExplicit": false,
+    "isAvailableOnStreaming": true,
+    "isFeatured": false
+  },
+  {
+    "title": "Neon Nights",
+    "artist": "Synthwave Syndicate",
+    "genre": "Electronic",
+    "releaseYear": 2021,
+    "recordLabel": "Neon Dreams",
+    "format": "Vinyl",
+    "isExplicit": false,
+    "isAvailableOnStreaming": true,
+    "isFeatured": true
+  },
+  {
+    "title": "Whispers in the Dark",
+    "artist": "Shadow Dancers",
+    "genre": "R&B",
+    "releaseYear": 2019,
+    "recordLabel": "Midnight Melodies",
+    "format": "Streaming",
+    "isExplicit": true,
+    "isAvailableOnStreaming": true,
+    "isFeatured": false
+  }
+]

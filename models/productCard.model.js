@@ -35,11 +35,12 @@ const productCardSchema = new mongoose.Schema({
     type: String,
   },
   variant: {
-    type: String,
+    type: [String],
     enum: [
       "2023 Model - 1 Ton 3 Star",
       "2023 Model - 2 Ton 4 Star",
       "2024 Model - 1 Ton 3 Star",
+      "2024 Model - 2 Ton 4 Star"
     ],
   },
   connectivity: {

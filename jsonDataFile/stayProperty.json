@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Cozy Mountain Retreat",
+    "description": "Escape to our secluded mountain cabin, perfect for nature lovers.",
+    "location": "Asheville, NC",
+    "pricePerNight": 250,
+    "capacity": 4,
+    "isPetFriendly": true,
+    "hasWiFi": true,
+    "hasParking": true,
+    "isActive": true
+  },
+  {
+    "title": "Oceanfront Condo",
+    "description": "Relax in style at our beachside condo with stunning ocean views.",
+    "location": "Miami Beach, FL",
+    "pricePerNight": 350,
+    "capacity": 6,
+    "isPetFriendly": false,
+    "hasWiFi": true,
+    "hasParking": false,
+    "isActive": true
+  },
+  {
+    "title": "Rustic Farmhouse",
+    "description": "Experience country living in our charming farmhouse near rolling hills.",
+    "location": "Nashville, TN",
+    "pricePerNight": 200,
+    "capacity": 5,
+    "isPetFriendly": true,
+    "hasWiFi": false,
+    "hasParking": true,
+    "isActive": true
+  },
+  {
+    "title": "Urban Loft",
+    "description": "Live like a local in our trendy loft apartment in the heart of the city.",
+    "location": "New York City, NY",
+    "pricePerNight": 300,
+    "capacity": 3,
+    "isPetFriendly": false,
+    "hasWiFi": true,
+    "hasParking": false,
+    "isActive": true
+  },
+  {
+    "title": "Beachside Bungalow",
+    "description": "Find peace in our cozy beach bungalow with direct access to the shore.",
+    "location": "San Diego, CA",
+    "pricePerNight": 280,
+    "capacity": 4,
+    "isPetFriendly": true,
+    "hasWiFi": true,
+    "hasParking": true,
+    "isActive": true
+  },
+  {
+    "title": "Mountain Chalet",
+    "description": "Enjoy skiing and hiking from our comfortable mountain chalet.",
+    "location": "Park City, UT",
+    "pricePerNight": 320,
+    "capacity": 6,
+    "isPetFriendly": false,
+    "hasWiFi": true,
+    "hasParking": true,
+    "isActive": true
+  },
+  {
+    "title": "Lakefront Cottage",
+    "description": "Relax by the water in our charming lakefront cottage.",
+    "location": "Austin, TX",
+    "pricePerNight": 220,
+    "capacity": 4,
+    "isPetFriendly": true,
+    "hasWiFi": false,
+    "hasParking": true,
+    "isActive": true
+  },
+  {
+    "title": "City Center Apartment",
+    "description": "Experience urban living in our modern apartment in the city center.",
+    "location": "Chicago, IL",
+    "pricePerNight": 290,
+    "capacity": 3,
+    "isPetFriendly": false,
+    "hasWiFi": true,
+    "hasParking": false,
+    "isActive": true
+  },
+  {
+    "title": "Desert Oasis",
+    "description": "Escape to our luxurious desert retreat with breathtaking views.",
+    "location": "Palm Springs, CA",
+    "pricePerNight": 380,
+    "capacity": 6,
+    "isPetFriendly": false,
+    "hasWiFi": true,
+    "hasParking": true,
+    "isActive": true
+  },
+  {
+    "title": "Coastal Cottage",
+    "description": "Enjoy the sea breeze in our cozy coastal cottage near the beach.",
+    "location": "Outer Banks, NC",
+    "pricePerNight": 260,
+    "capacity": 4,
+    "isPetFriendly": true,
+    "hasWiFi": true,
+    "hasParking": true,
+    "isActive": true
+  }
+]

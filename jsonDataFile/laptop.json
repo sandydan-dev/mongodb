@@ -1,0 +1,90 @@
+[
+  {
+    "brand": "HP",
+    "model": "Envy x360",
+    "processor": "AMD Ryzen 7 5800U",
+    "ramSizeGB": 16,
+    "screenSizeInches": 15.6,
+    "isTouchscreen": true,
+    "hasSSD": true,
+    "isSaleActive": false,
+    "isActive": true
+  },
+  {
+    "brand": "Lenovo",
+    "model": "ThinkPad X1 Carbon",
+    "processor": "Intel Core i7-1165G7",
+    "ramSizeGB": 16,
+    "screenSizeInches": 14,
+    "isTouchscreen": false,
+    "hasSSD": true,
+    "isSaleActive": true,
+    "isActive": true
+  },
+  {
+    "brand": "Asus",
+    "model": "ZenBook 14",
+    "processor": "AMD Ryzen 9 5900HX",
+    "ramSizeGB": 32,
+    "screenSizeInches": 14,
+    "isTouchscreen": false,
+    "hasSSD": true,
+    "isSaleActive": false,
+    "isActive": true
+  },
+  {
+    "brand": "Microsoft",
+    "model": "Surface Laptop 4",
+    "processor": "Intel Core i7-1185G7",
+    "ramSizeGB": 16,
+    "screenSizeInches": 15,
+    "isTouchscreen": true,
+    "hasSSD": true,
+    "isSaleActive": false,
+    "isActive": true
+  },
+  {
+    "brand": "Acer",
+    "model": "Predator Helios 300",
+    "processor": "Intel Core i7-11800H",
+    "ramSizeGB": 16,
+    "screenSizeInches": 15.6,
+    "isTouchscreen": false,
+    "hasSSD": true,
+    "isSaleActive": true,
+    "isActive": true
+  },
+  {
+    "brand": "Apple",
+    "model": "MacBook Air M1",
+    "processor": "Apple M1",
+    "ramSizeGB": 8,
+    "screenSizeInches": 13.3,
+    "isTouchscreen": false,
+    "hasSSD": true,
+    "isSaleActive": false,
+    "isActive": true
+  },
+  {
+    "brand": "MSI",
+    "model": "GS66 Stealth",
+    "processor": "Intel Core i9-11900H",
+    "ramSizeGB": 64,
+    "screenSizeInches": 15.6,
+    "isTouchscreen": false,
+    "hasSSD": true,
+    "isSaleActive": true,
+    "isActive": true
+  },
+  {
+    "brand": "Razer",
+    "model": "Blade 15",
+    "processor": "Intel Core i7-11800H",
+    "ramSizeGB": 16,
+    "screenSizeInches": 15.6,
+    "isTouchscreen": false,
+    "hasSSD": true,
+    "isSaleActive": false,
+    "isActive": true
+  }
+]

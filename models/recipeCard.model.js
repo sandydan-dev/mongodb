@@ -14,3 +14,6 @@ const recipeCardSchema = new mongoose.Schema({
 });
 
 const RecipeCard = mongoose.model("RecipeCard", recipeCardSchema);
+
+module.exports = RecipeCard;
+

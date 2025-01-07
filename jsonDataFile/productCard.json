@@ -1,0 +1,122 @@
+[
+  {
+    "imageURL": "https://example.com/ac1.jpg",
+    "productTitle": "EcoCool AC",
+    "productDescription": "High-efficiency air conditioner with advanced filtration system.",
+    "rating": 4.2,
+    "reviews": 85,
+    "price": 899.99,
+    "discount": 5,
+    "offerDiscription": "Free installation with purchase!",
+    "variant": "2023 Model - 1 Ton 3 Star",
+    "connectivity": "Wi-Fi"
+  },
+  {
+    "imageURL": "https://example.com/ac2.png",
+    "productTitle": "SmartBreeze Pro",
+    "productDescription": "AI-powered air conditioner with voice control and energy optimization.",
+    "rating": 4.8,
+    "reviews": 210,
+    "price": 1299.99,
+    "discount": 0,
+    "offerDiscription": "",
+    "variant": "2024 Model - 2 Ton 4 Star",
+    "connectivity": "Wi-Fi & Bluetooth"
+  },
+  {
+    "imageURL": "https://example.com/ac3.webp",
+    "productTitle": "GreenChill",
+    "productDescription": "Environmentally friendly air conditioner with natural refrigerant.",
+    "rating": 4.1,
+    "reviews": 60,
+    "price": 799.99,
+    "discount": 8,
+    "offerDiscription": "Buy one, get second 8% off!",
+    "variant": "2023 Model - 1 Ton 3 Star",
+    "connectivity": "Bluetooth"
+  },
+  {
+    "imageURL": "https://example.com/ac4.jpg",
+    "productTitle": "QuickCool X500",
+    "productDescription": "Rapid cooling air conditioner with turbo mode for instant comfort.",
+    "rating": 4.6,
+    "reviews": 150,
+    "price": 1099.99,
+    "discount": 0,
+    "offerDiscription": "",
+    "variant": "2023 Model - 2 Ton 4 Star",
+    "connectivity": "Wi-Fi & Bluetooth"
+  },
+  {
+    "imageURL": "https://example.com/ac5.png",
+    "productTitle": "SilentStorm",
+    "productDescription": "Ultra-quiet air conditioner with advanced noise reduction technology.",
+    "rating": 4.4,
+    "reviews": 90,
+    "price": 949.99,
+    "discount": 3,
+    "offerDiscription": "Free shipping on orders over $900!",
+    "variant": "2024 Model - 1 Ton 3 Star",
+    "connectivity": "Wi-Fi"
+  },
+  {
+    "imageURL": "https://example.com/ac6.webp",
+    "productTitle": "ClimateMaster",
+    "productDescription": "Advanced climate control system with humidity regulation and air purification.",
+    "rating": 4.9,
+    "reviews": 300,
+    "price": 1499.99,
+    "discount": 0,
+    "offerDiscription": "",
+    "variant": "2024 Model - 2 Ton 4 Star",
+    "connectivity": "Wi-Fi & Bluetooth"
+  },
+  {
+    "imageURL": "https://example.com/ac7.jpg",
+    "productTitle": "EcoFresh",
+    "productDescription": "Energy-efficient air conditioner with built-in dehumidifier.",
+    "rating": 4.3,
+    "reviews": 75,
+    "price": 849.99,
+    "discount": 6,
+    "offerDiscription": "Bundle deal: Buy with our air purifier for 10% off total!",
+    "variant": "2023 Model - 1 Ton 3 Star",
+    "connectivity": "Bluetooth"
+  },
+  {
+    "imageURL": "https://example.com/ac8.png",
+    "productTitle": "TurboChill",
+    "productDescription": "High-performance air conditioner with rapid cooling technology.",
+    "rating": 4.7,
+    "reviews": 180,
+    "price": 1199.99,
+    "discount": 0,
+    "offerDiscription": "",
+    "variant": "2023 Model - 2 Ton 4 Star",
+    "connectivity": "Wi-Fi & Bluetooth"
+  },
+  {
+    "imageURL": "https://example.com/ac9.webp",
+    "productTitle": "PureAir Plus",
+    "productDescription": "Air conditioner with advanced HEPA filtration and UV light disinfection.",
+    "rating": 4.5,
+    "reviews": 110,
+    "price": 999.99,
+    "discount": 4,
+    "offerDiscription": "Free maintenance kit with purchase!",
+    "variant": "2024 Model - 1 Ton 3 Star",
+    "connectivity": "Wi-Fi"
+  },
+  {
+    "imageURL": "https://example.com/ac10.jpg",
+    "productTitle": "SmartCool Pro",
+    "productDescription": "Intelligent air conditioner with smart scheduling and energy optimization.",
+    "rating": 4.6,
+    "reviews": 140,
+    "price": 1099.99,
+    "discount": 0,
+    "offerDiscription": "",
+    "variant": "2024 Model - 2 Ton 4 Star",
+    "connectivity": "Wi-Fi & Bluetooth"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "imageURL": "https://example.com/recipe1.jpg",
+    "title": "Spicy Shrimp Pasta",
+    "description": "Quick and flavorful pasta dish with succulent shrimp.",
+    "ingredients": "Penne pasta, large shrimp, garlic, cherry tomatoes, red pepper flakes, olive oil, parmesan cheese",
+    "cookingTime": "15 minutes",
+    "servings": 4,
+    "preppingTime": "10 minutes",
+    "note": "Adjust spice level to taste."
+  },
+  {
+    "imageURL": "https://example.com/recipe2.png",
+    "title": "Roasted Vegetable Soup",
+    "description": "Comforting soup made with roasted vegetables and aromatic spices.",
+    "ingredients": "Carrots, celery, onions, potatoes, garlic, vegetable broth, coconut milk, thyme",
+    "cookingTime": "45 minutes",
+    "servings": 6,
+    "preppingTime": "20 minutes",
+    "note": "Blend for a creamy texture if desired."
+  },
+  {
+    "imageURL": "https://example.com/recipe3.webp",
+    "title": "Grilled Chicken Salad",
+    "description": "Fresh mix of greens, grilled chicken, and tangy dressing.",
+    "ingredients": "Mixed greens, boneless chicken breast, cherry tomatoes, cucumber, red onion, balsamic vinaigrette",
+    "cookingTime": "12 minutes",
+    "servings": 2,
+    "preppingTime": "8 minutes",
+    "note": "Use leftover chicken for added convenience."
+  },
+  {
+    "imageURL": "https://example.com/recipe4.jpg",
+    "title": "Baked Salmon with Lemon",
+    "description": "Simple yet elegant fish dish with bright citrus flavors.",
+    "ingredients": "Salmon fillets, lemon juice, olive oil, garlic, parsley, salt, pepper",
+    "cookingTime": "18 minutes",
+    "servings": 4,
+    "preppingTime": "5 minutes",
+    "note": "Serve with quinoa and steamed vegetables."
+  },
+  {
+    "imageURL": "https://example.com/recipe5.png",
+    "title": "Veggie Stir-Fry",
+    "description": "Quick and versatile stir-fry with colorful vegetables.",
+    "ingredients": "Broccoli, bell peppers, carrots, onions, garlic, soy sauce, vegetable oil",
+    "cookingTime": "10 minutes",
+    "servings": 3,
+    "preppingTime": "8 minutes",
+    "note": "Add protein like tofu or chicken for extra nutrition."
+  },
+  {
+    "imageURL": "https://example.com/recipe6.webp",
+    "title": "Homemade Pizza",
+    "description": "Classic Italian dish made fresh at home.",
+    "ingredients": "Pizza dough, tomato sauce, mozzarella cheese, pepperoni, basil",
+    "cookingTime": "20 minutes",
+    "servings": 4,
+    "preppingTime": "15 minutes",
+    "note": "Customize toppings according to preference."
+  },
+  {
+    "imageURL": "https://example.com/recipe7.jpg",
+    "title": "Chickpea Curry",
+    "description": "Flavorful and nutritious curry made with chickpeas and aromatic spices.",
+    "ingredients": "Chickpeas, coconut milk, onion, ginger, garlic, cumin, coriander, turmeric",
+    "cookingTime": "30 minutes",
+    "servings": 6,
+    "preppingTime": "10 minutes",
+    "note": "Serve over rice or with naan bread."
+  },
+  {
+    "imageURL": "https://example.com/recipe8.png",
+    "title": "Breakfast Burrito",
+    "description": "Hearty breakfast wrapped in a flour tortilla.",
+    "ingredients": "Scrambled eggs, black beans, cheddar cheese, salsa, avocado, flour tortillas",
+    "cookingTime": "15 minutes",
+    "servings": 4,
+    "preppingTime": "10 minutes",
+    "note": "Add cooked sausage or bacon for extra protein."
+  },
+  {
+    "imageURL": "https://example.com/recipe9.webp",
+    "title": "Quinoa Salad Bowl",
+    "description": "Nutritious bowl filled with quinoa, vegetables, and a tangy dressing.",
+    "ingredients": "Cooked quinoa, mixed greens, cherry tomatoes, cucumber, carrots, feta cheese, lemon-tahini dressing",
+    "cookingTime": "15 minutes",
+    "servings": 2,
+    "preppingTime": "10 minutes",
+    "note": "Customize toppings based on seasonal produce."
+  },
+  {
+    "imageURL": "https://example.com/recipe10.jpg",
+    "title": "Beef Tacos",
+    "description": "Flavorful tacos filled with seasoned beef and fresh toppings.",
+    "ingredients": "Ground beef, taco seasoning, lettuce, diced tomatoes, shredded cheese, sour cream, tortillas",
+    "cookingTime": "20 minutes",
+    "servings": 6,
+    "preppingTime": "10 minutes",
+    "note": "Serve with homemade salsa for extra flavor."
+  }
+]

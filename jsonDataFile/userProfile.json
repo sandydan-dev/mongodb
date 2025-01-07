@@ -1,0 +1,102 @@
+[
+  {
+    "username": "LunaSparkles",
+    "email": "luna.sparkles@example.com",
+    "firstName": "Luna",
+    "lastName": "Starlight",
+    "birthData": "1995-06-12T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/luna-profile.jpg"
+  },
+  {
+    "username": "NovaStellar",
+    "email": "nova.stellar@example.com",
+    "firstName": "Nova",
+    "lastName": "Cosmos",
+    "birthData": "1988-03-25T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/nova-profile.jpg"
+  },
+  {
+    "username": "AuroraGlow",
+    "email": "aurora.glow@example.com",
+    "firstName": "Aurora",
+    "lastName": "Sunrise",
+    "birthData": "1992-09-01T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/aurora-profile.jpg"
+  },
+  {
+    "username": "SkyeDreamer",
+    "email": "skye.dreamer@example.com",
+    "firstName": "Skye",
+    "lastName": "Cloudwalker",
+    "birthData": "1990-04-15T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/skye-profile.jpg"
+  },
+  {
+    "username": "RiverFlow",
+    "email": "river.flow@example.com",
+    "firstName": "River",
+    "lastName": "Stream",
+    "birthData": "1985-02-28T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/river-profile.jpg"
+  },
+  {
+    "username": "WillowWhisper",
+    "email": "willow.whisper@example.com",
+    "firstName": "Willow",
+    "lastName": "Wind",
+    "birthData": "1997-08-22T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/willow-profile.jpg"
+  },
+  {
+    "username": "MeadowBreeze",
+    "email": "meadow.breeze@example.com",
+    "firstName": "Meadow",
+    "lastName": "Greenfield",
+    "birthData": "1982-11-05T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/meadow-profile.jpg"
+  },
+  {
+    "username": "OceanTides",
+    "email": "ocean.tides@example.com",
+    "firstName": "Ocean",
+    "lastName": "Surf",
+    "birthData": "1994-01-18T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/ocean-profile.jpg"
+  },
+  {
+    "username": "DawnBreaker",
+    "email": "dawn.breaker@example.com",
+    "firstName": "Dawn",
+    "lastName": "Morningstar",
+    "birthData": "1986-10-02T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/dawn-profile.jpg"
+  },
+  {
+    "username": "BreezeSinger",
+    "email": "breeze.singer@example.com",
+    "firstName": "Breeze",
+    "lastName": "Melody",
+    "birthData": "1991-05-20T00:00:00.000Z",
+    "isActive": true,
+    "isAdmin": false,
+    "profilePictureUrl": "https://example.com/breeze-profile.jpg"
+  }
+]

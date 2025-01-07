@@ -11,6 +11,7 @@ const ProductCard = require("./models/productCard.model.js");
 const RecipeCard = require("./models/recipeCard.model.js");
 const StayProperty = require("./models/stayProperty.model.js");
 const UserProfile = require("./models/userProfile.model.js");
+const Book = require("./models/book.model.js");
 // ----------------------
 // mongodb connection
 connectDB();
@@ -49,6 +50,9 @@ const jsonUserProfileFileData = fs.readFileSync(
   "./jsonDataFile/userProfile.json",
   "utf-8"
 );
+
+const jsonBookFileData = fs.readFileSync("./jsonDataFile/book.json", "utf-8");
+
 // -----------------------
 // parse data into json object
 const moviesData = JSON.parse(jsonMovieFileData);
@@ -60,6 +64,7 @@ const productCardsData = JSON.parse(jsonProductCardFileData);
 const recipeCardsData = JSON.parse(jsonRecipeCardFileData);
 const stayPropertiesData = JSON.parse(jsonStayPropertyFileData);
 const usersProfileData = JSON.parse(jsonUserProfileFileData);
+const booksData = JSON.parse(jsonBookFileData);
 // -------------------
 // Movie data seeding
 function seedMovieData() {
@@ -234,7 +239,7 @@ function seedRecipeCardData() {
         note: recipeCard.note,
       });
 
-      console.log(newRecipeCard.title);
+      // console.log(newRecipeCard.title);
       newRecipeCard.save();
     }
   } catch (error) {
@@ -289,3 +294,29 @@ function seedUserProfileData() {
   }
 }
 seedUserProfileData();
+
+// seeding book data
+function seedBookData() {
+  try {
+    for (const book of booksData) {
+      const newBook = new Book({
+        title: book.title,
+        author: book.author,
+        genre: book.genre,
+        publishedYear: book.publishedYear,
+        language: book.language,
+        country: book.country,
+        rating: book.rating,
+        summary: book.summary,
+        coverImageUrl: book.coverImageUrl,
+      });
+
+      console.log(newBook.title);
+      newBook.save();
+    }
+  } catch (error) {
+    console.log("Error while seeding book data", error);
+  }
+}
+
+seedBookData();

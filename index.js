@@ -1,7 +1,7 @@
 const connectDB = require("./db/db.connect.js");
 const fs = require("fs");
 
-// models
+// models Restaurant
 const Movie = require("./models/movies.model");
 const Car = require("./models/cars.model.js");
 const Laptop = require("./models/laptop.model");
@@ -69,6 +69,7 @@ const recipeCardsData = JSON.parse(jsonRecipeCardFileData);
 const stayPropertiesData = JSON.parse(jsonStayPropertyFileData);
 const usersProfileData = JSON.parse(jsonUserProfileFileData);
 const booksData = JSON.parse(jsonBookFileData);
+
 // -------------------
 // Movie data seeding
 function seedMovieData() {
@@ -418,4 +419,4 @@ const getAllEmployee = async () => {
     console.log("Error while getting all employee data", error);
   }
 };
-getAllEmployee();
+// getAllEmployee();

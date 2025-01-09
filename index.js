@@ -12,6 +12,10 @@ const RecipeCard = require("./models/recipeCard.model.js");
 const StayProperty = require("./models/stayProperty.model.js");
 const UserProfile = require("./models/userProfile.model.js");
 const Book = require("./models/book.model.js");
+const Author = require("./models/author.model");
+const BookData = require("./models/bookData.model.js");
+const Employee = require("./models/employee.model");
+const Department = require("./models/departement.model");
 // ----------------------
 // mongodb connection
 connectDB();
@@ -91,7 +95,7 @@ function seedMovieData() {
     console.error("Error seeding the data", error);
   }
 }
-seedMovieData();
+// seedMovieData();
 
 // car data seeding
 function seedCarData() {
@@ -118,7 +122,7 @@ function seedCarData() {
     console.log("Error While seeding the data", error);
   }
 }
-seedCarData();
+// seedCarData();
 
 // laptop data seeding
 function seedLaptopData() {
@@ -142,7 +146,7 @@ function seedLaptopData() {
     console.log("Error while seeding Laptop data", error);
   }
 }
-seedLaptopData();
+// seedLaptopData();
 
 // music album data seeding
 function seedMusicAlbumData() {
@@ -167,7 +171,7 @@ function seedMusicAlbumData() {
     console.log("Error while seeding music album data", error);
   }
 }
-seedMusicAlbumData();
+// seedMusicAlbumData();
 
 // player data seeding
 function seedPlayerData() {
@@ -194,7 +198,7 @@ function seedPlayerData() {
     console.log("Error while seeding player data", error);
   }
 }
-seedPlayerData();
+// seedPlayerData();
 
 // product card data seeding
 function seedProductCardData() {
@@ -220,7 +224,7 @@ function seedProductCardData() {
     console.log("Error while seeding product card data", error);
   }
 }
-seedProductCardData();
+// seedProductCardData();
 
 // recipe card data seeding
 function seedRecipeCardData() {
@@ -246,7 +250,7 @@ function seedRecipeCardData() {
     console.log("Error while seeding recipe card data", error);
   }
 }
-seedRecipeCardData();
+// seedRecipeCardData();
 
 // StayProperty data seeding
 function seedStayPropertyData() {
@@ -270,7 +274,7 @@ function seedStayPropertyData() {
     console.log("Error while seeding stay property data", error);
   }
 }
-seedStayPropertyData();
+// seedStayPropertyData();
 
 // UserProfile data seeding
 function seedUserProfileData() {
@@ -293,7 +297,7 @@ function seedUserProfileData() {
     console.log("Error while seeding user profile data", error);
   }
 }
-seedUserProfileData();
+// seedUserProfileData();
 
 // seeding book data
 function seedBookData() {
@@ -319,4 +323,99 @@ function seedBookData() {
   }
 }
 
-seedBookData();
+// seedBookData();
+
+//todo : ------- Referencing models ------
+
+const authorData = {
+  name: "Sandeep Dhanwate",
+  email: "sandeep@example.com",
+};
+
+const addAuthor = async () => {
+  try {
+    const newAuthor = new Author(authorData);
+    await newAuthor.save();
+    console.log("Author added successfully");
+  } catch (error) {
+    console.log("Error while adding author", error);
+  }
+};
+
+// addAuthor();
+
+// add book data to db
+const bookData = {
+  title: "Book Title",
+  genre: "Fiction",
+  author: "677f79aa51a4dbb9000437d6",
+};
+const addBookData = async () => {
+  try {
+    const newBookData = new BookData(bookData);
+    await newBookData.save();
+    console.log("Book data added successfully");
+  } catch (error) {
+    console.log("Error while adding book data", error);
+  }
+};
+
+// addBookData();
+
+// get all books data
+const getAllBooksData = async () => {
+  try {
+    const booksData = await BookData.find().populate("author");
+    console.log("Books data", booksData);
+  } catch (error) {
+    console.log("Error while getting all books data", error);
+  }
+};
+// getAllBooksData();
+
+//todo employee and department data referencing
+
+// department data seeding to db
+const departmentData = {
+  name: "Sandeep Danny",
+  location: "Nagpur,Maharashtra,India",
+};
+const addDepartmentData = async () => {
+  try {
+    const newDepartment = new Department(departmentData);
+    await newDepartment.save();
+    console.log("Department data added successfully");
+  } catch (error) {
+    console.log("Error while adding department data", error);
+  }
+};
+// addDepartmentData();
+
+// employee data seeding to db
+const employeeData = {
+  name: "John Doe",
+  email: "john.doe@example.com",
+  department: "677f872aa3fabd6dc551a669",
+};
+
+const addEmployeeData = async () => {
+  try {
+    const newEmployee = new Employee(employeeData);
+    await newEmployee.save();
+    console.log("Employee data added successfully");
+  } catch (error) {
+    console.log("Error while adding employee data", error);
+  }
+};
+// addEmployeeData()
+
+// get all employee details
+const getAllEmployee = async () => {
+  try {
+    const employeeData = await Employee.find().populate("department");
+    console.log("Employee data", employeeData);
+  } catch (error) {
+    console.log("Error while getting all employee data", error);
+  }
+};
+getAllEmployee();
